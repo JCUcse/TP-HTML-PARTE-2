@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 3</title>
+</head>
+<body>
+<h1>ENCUESTA DE CAMPUS VIRTUAL</h1>
+<form >
+    <label for="Nombre">Nombre</label>
+    <input type="text">
+    <br>
+    <br>
+    <label for="Departamento">Departamento</label>
+    <select name="Departamento">
+        <option selected="true" disabled="disabled">Seleccione undepartamento</option>
+        <option value="valor1">Informática</option>
+        <option value="valor2">Arquitectura</option>
+        <option value="valor3">Abogacía</option>
+        <option value="valor4">Medicina</option>
+    </select>
+    <br>
+    <br>
+    <label for="Sede">Sede</label>
+    <select name="Departamento">
+        <option selected="true" disabled="disabled">Seleccione una sede</option>
+        <option value="valor1">Santiago Del Estero</option>
+        <option value="valor2">San Salvador Del Jujuy</option>
+        <option value="valor3">Rafaela</option>
+        <option value="valor4">Buenos Aires</option>
+    </select>
+    <br>
+    <br>
+    <label for="Email">E-mail</label>
+    <input type="text">
+    <br>
+    <br>
+    <label for="Telefono">Teléfono</label>
+    <input type="number" name="Teléfono">
+    <br>
+    <br>
+    <div style="display:flex; flex-direction: row; gap: 2rem;">
+    <label for="Uso">Utiliza habitualmente el campus virtual</label>
+        <div>
+            <input type="radio" value="Valor1" name="uso"checked>
+            <label for="Si">Si</label>
+        </div>
+        <div>
+            <input type="radio" value="Valor1" name="uso">
+            <label for="Si">No</label>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div style="display:flex; flex-direction: row; gap: 2rem;">
+        <label for="Interes">¿Estaría interesado en recibir información sobre las posibilidades de esta herramienta?</label>
+            <div>
+                <input type="radio" value="Valor1" name="interés"checked>
+                <label for="Si">Si</label>
+            </div>
+            <div>
+                <input type="radio" value="Valor1" name="interés">
+                <label for="Si">No</label>
+            </div>
+        </div>
+    <h2>CALENDARIO APROXIMADO DE FORMACIÓN</h2>
+    <div style="display:flex; flex-direction: row; gap: 2rem;">
+        <label for="Turno">Turno Preferente</label>
+            <div>
+                <input type="checkbox" value="Valor1" name="turno"checked>
+                <label for="Mañana">Mañana</label>
+            </div>
+            <div>
+                <input type="checkbox" value="Valor2" name="turno">
+                <label for="Tarde">Tarde</label>
+            </div>
+        </div>
+        <br>
+        <br>
+        <label for="Sede">Mes Presente</label>
+        <select name="Departamento">
+            <option selected="true" disabled="disabled">Seleccione un mes</option>
+            <option value="valor1">Enero</option>
+            <option value="valor2">Febrero</option>
+            <option value="valor3">Marzo</option>
+            <option value="valor4">Abril</option>
+            <option value="valor5">Mayo</option>
+            <option value="valor6">Junio</option>
+            <option value="valor7">Julio</option>
+            <option value="valor8">Agosto</option>
+            <option value="valor9">Septiembre</option>
+            <option value="valor10">Octubre</option>
+            <option value="valor11">Noviembre</option>
+            <option value="valor12">Diciembre</option>
+        </select>
+        <br>
+        <br>
+        <label for="Sede">Horario Preferente </label>
+        <select name="Mes">
+            <option selected="true" disabled="disabled">Seleccione un mes</option>
+            <option value="valor1">Enero</option>
+            <option value="valor2">Febrero</option>
+            <option value="valor3">Marzo</option>
+            <option value="valor4">Abril</option>
+            <option value="valor5">Mayo</option>
+            <option value="valor6">Junio</option>
+            <option value="valor7">Julio</option>
+            <option value="valor8">Agosto</option>
+            <option value="valor9">Septiembre</option>
+            <option value="valor10">Octubre</option>
+            <option value="valor11">Noviembre</option>
+            <option value="valor12">Diciembre</option>
+        </select>
+        <br>
+        <br>
+        <label for="Sede">Horario Preferente </label>
+        <select name="Horario">
+            <option selected="true" disabled="disabled">Seleccione un horario</option>
+            <option value="valor1">9:00</option>
+            <option value="valor2">10:00</option>
+            <option value="valor3">11:00</option>
+            <option value="valor4">12:00</option>
+            <option value="valor5">13:00</option>
+            <option value="valor6">14:00</option>
+            <option value="valor7">15:00</option>
+            <option value="valor8">16:00</option>
+            <option value="valor9">17:00</option>
+            <option value="valor10">18:00</option>
+            <option value="valor11">19:00</option>
+            <option value="valor12">20:00</option>
+            <option value="valor13">21:00</option>
+        </select>
+        <br>
+        <br>
+        <div style="display: flex; flex:row; gap:2rem">
+        <label for="Comentario" style="justify-self: center; align-self: center;">Comentario</label>
+        <textarea name="Comentario" id="" cols="30" rows="10" placeholder="Añada los comentario que desee"></textarea>
+        </div>
+        <br>
+        <br>
+        <div style="display: flex; flex-direction: row; gap: 1rem; margin-left: 10px;">
+            <input type="submit" value="Enviar">
+            <input type="submit" value="Borrar">
+        </div>
+</form>
+</body>
+</html>
